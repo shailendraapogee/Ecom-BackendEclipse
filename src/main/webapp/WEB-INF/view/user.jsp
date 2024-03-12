@@ -87,8 +87,7 @@
 					<label for="female">Female</label><br>
 				</div>
 				<div class="form-group">
-					<label for="cars">Role :</label> 
-					<select name="role" id="role">
+					<label for="cars">Role :</label> <select name="role" id="role">
 						<option value="" disabled>--Select One--</option>
 						<option value="ROLE_ADMIN">ROLE_ADMIN</option>
 						<option value="ROLE_MANAGER">ROLE_MANAGER</option>

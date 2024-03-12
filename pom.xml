@@ -84,12 +84,8 @@
 			<version>3.0.0</version>
 			<type>jar</type>
 		</dependency>
-		<!--  <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.18.30</version>   
-            <scope>provided</scope>
-        </dependency>-->
+		<!-- <dependency> <groupId>org.projectlombok</groupId> <artifactId>lombok</artifactId> 
+			<version>1.18.30</version> <scope>provided</scope> </dependency> -->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
@@ -131,18 +127,10 @@
 		</plugins>
 	</build>
 
-	<!--    <build>
-      <plugins>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-war-plugin</artifactId>
-          <version>3.3.1</version>
-          <configuration>
-            <warName>${project.artifactId}</warName>
-          </configuration>
-        </plugin>
-      </plugins>
-    </build>-->
+	<!-- <build> <plugins> <plugin> <groupId>org.apache.maven.plugins</groupId> 
+		<artifactId>maven-war-plugin</artifactId> <version>3.3.1</version> <configuration> 
+		<warName>${project.artifactId}</warName> </configuration> </plugin> </plugins> 
+		</build> -->
 
 
 </project>
