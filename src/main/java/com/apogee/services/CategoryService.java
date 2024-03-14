@@ -1,7 +1,8 @@
 package com.apogee.services;
 
-import com.apogee.payload.CategoryDto;
 import java.util.List;
+
+import com.apogee.payload.CategoryDto;
 
 public interface CategoryService {
 

@@ -4,9 +4,10 @@
  */
 package com.apogee.services;
 
+import java.util.List;
+
 import com.apogee.EntityModel.User;
 import com.apogee.payload.UserDto;
-import java.util.List;
 
 /**
  *

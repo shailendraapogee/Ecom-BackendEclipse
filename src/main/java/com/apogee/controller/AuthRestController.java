@@ -1,10 +1,5 @@
 package com.apogee.controller;
 
-import com.apogee.Exception.ResourceNotFoundException;
-import com.apogee.Security.JwtHelper;
-import com.apogee.payload.JwtRequest;
-import com.apogee.payload.JwtResponse;
-import com.apogee.payload.UserDto;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -19,6 +14,12 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.apogee.Exception.ResourceNotFoundException;
+import com.apogee.Security.JwtHelper;
+import com.apogee.payload.JwtRequest;
+import com.apogee.payload.JwtResponse;
+import com.apogee.payload.UserDto;
 
 @RestController
 @RequestMapping("/auth")

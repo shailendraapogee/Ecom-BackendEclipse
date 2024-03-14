@@ -5,10 +5,10 @@
  */
 package com.apogee.services;
 
-import com.apogee.EntityModel.Product;
+import java.util.List;
+
 import com.apogee.payload.ProductDto;
 import com.apogee.payload.ProductResponse;
-import java.util.List;
 
 /**
  *

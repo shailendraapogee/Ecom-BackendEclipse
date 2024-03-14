@@ -5,8 +5,6 @@
  */
 package com.apogee.payload;
 
-import com.apogee.EntityModel.Category;
-
 /**
  *
  * @author lENOVO

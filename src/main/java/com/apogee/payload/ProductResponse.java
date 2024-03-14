@@ -5,7 +5,6 @@
  */
 package com.apogee.payload;
 
-import com.apogee.EntityModel.Product;
 import java.util.List;
 
 /**

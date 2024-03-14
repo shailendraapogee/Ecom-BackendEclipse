@@ -1,5 +1,18 @@
 package com.apogee.services;
 
+import java.util.Date;
+import java.util.List;
+import java.util.Set;
+import java.util.concurrent.atomic.AtomicReference;
+import java.util.stream.Collectors;
+
+import org.modelmapper.ModelMapper;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.stereotype.Service;
+
 import com.apogee.EntityModel.Cart;
 import com.apogee.EntityModel.CartItem;
 import com.apogee.EntityModel.Order;
@@ -12,17 +25,6 @@ import com.apogee.payload.OrderResponse;
 import com.apogee.repository.CartRepository;
 import com.apogee.repository.OrderRepository;
 import com.apogee.repository.UserRepository;
-import org.modelmapper.ModelMapper;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Pageable;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
-import org.springframework.stereotype.Service;
-import java.util.Date;
-import java.util.List;
-import java.util.Set;
-import java.util.concurrent.atomic.AtomicReference;
-import java.util.stream.Collectors;
 
 @Service
 public class OrderServiceImpl implements OrderService {
