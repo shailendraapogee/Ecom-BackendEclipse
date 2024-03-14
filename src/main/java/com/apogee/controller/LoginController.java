@@ -47,7 +47,8 @@ public class LoginController {
 			session.removeAttribute("username");
 			session.removeAttribute("email");
 		}
-		return "loginpage";
+//		return "WEB-INF/view/loginpage";
+		return "/WEB-INF/jsp/order";
 	}
 
 	@PostMapping("/login")

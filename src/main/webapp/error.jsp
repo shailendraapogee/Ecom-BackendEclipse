@@ -44,7 +44,7 @@ opacity
 </style>
 </head>
 <body>
-	<div class="message">Error! Please re-submit...</div>
+	<div class="">Error! Please re-submit...</div>
 </body>
 </html>
 
