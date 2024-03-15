@@ -19,7 +19,7 @@ import com.apogee.services.UserService;
 
 /**
  *
- * @author lENOVO
+ * @author lENOVO g
  */
 @Controller
 public class LoginController {
