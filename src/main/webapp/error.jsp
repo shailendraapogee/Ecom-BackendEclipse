@@ -29,8 +29,7 @@ body {
 	animation: fade-in 2s ease-in-out forwards;
 }
 
-@
-keyframes fade-in { 0% {
+@keyframes fade-in { 0% {
 	opacity: 0;
 }
 100
