@@ -37,7 +37,7 @@ public class LoginController {
 		if (session.getAttribute("username") == null) {
 			return "redirect:/loginpage";
 		} else {
-			return "dashboard";
+			return "WEB-INF/view/dashboard";
 		}
 	}
 
